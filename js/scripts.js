@@ -1,3 +1,4 @@
+console.log("custom script loaded");
 $(document).ready(function () {
     function keywordFromWeatherCode(code) {
         if (code === 0) return "sunlight";
